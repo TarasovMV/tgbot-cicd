@@ -1,0 +1,21 @@
+{
+  "name": "cicd-bot",
+  "version": "1.0.0",
+  "description": "telegram bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bot",
+    "cicd"
+  ],
+  "author": "Tarasov MV",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "sqlite3": "^5.0.2",
+    "telegraf": "^4.7.0"
+  }
+}
